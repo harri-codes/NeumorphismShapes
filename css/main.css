@@ -1,0 +1,34 @@
+body{
+    align-items: center;
+    background-color: #3e3c3c;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+.content{
+    align-items: center;
+    background: linear-gradient(145deg, #383636, #424040);
+    box-shadow: 
+        12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+        -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    display: flex;
+    height: 500px;
+    margin-right: 4rem;
+    width: 400px;
+}
+.rouded-pic{
+    
+    margin-top: 20px;
+    margin-left: 35%;
+    width: 0px;
+    height: 0px;
+    border-right: 60px solid transparent;
+    border-top: 60px solid rgb(255, 255, 255);
+    border-left: 60px solid rgb(255, 255, 255);
+    border-bottom: 60px solid rgb(255, 255, 255);
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
